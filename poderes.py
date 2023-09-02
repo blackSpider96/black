@@ -1,17 +1,17 @@
-# Lista de los poderes de Spider-Man
-poderes_spiderman = [
-    "Agilidad sobrehumana",
-    "Fuerza sobrehumana",
-    "Sentido arácnido",
-    "Lanzar telarañas",
-    "Paredes trepadoras",
-]
+# Definición de la función spider_poderes
+def spider_poderes():
+    # Lista de los poderes de Spider-Man
+    poderes_spiderman = [
+        "Agilidad sobrehumana",
+        "Fuerza sobrehumana",
+        "Sentido arácnido",
+        "Lanzar telarañas",
+        "Paredes trepadoras",
+    ]
 
-# Función para imprimir la lista de poderes de Spider-Man
-def imprimir_poderes_spiderman():
-    print("Poderes de Spider-Man:")
-    for poder in poderes_spiderman:
-        print("- " + poder)
+    # Imprimir los poderes numerados con saltos de línea
+    for i, poder in enumerate(poderes_spiderman, start=1):
+        print(f"{i}. {poder}")
 
-# Ejecutar la función para imprimir la lista de poderes
-imprimir_poderes_spiderman()
+# Llamar a la función spider_poderes para imprimir los poderes
+spider_poderes()
