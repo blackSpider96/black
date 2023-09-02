@@ -1,5 +1,9 @@
-# black
+# Spider-Man
 
-Lo que en este archivo se toca son datos de spiderman, como su historia, sus poderes y sus enemigos
+Este archivo lleva un registro de spiderman escrito en Python de manera que podremos ver cosas cómo:
 
-En este archivo estamos trabajando Los enemigos de spiderman, el primero agregado fue Scorpio, del cual tenemos su propio archivo donde se narra un poco de este
+- Sus poderes
+- Enemigos
+- Aliados
+- Equipos
+- Trajes
